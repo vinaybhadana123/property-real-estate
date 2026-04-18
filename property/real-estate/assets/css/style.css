@@ -1290,9 +1290,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  /* background-image: url("../images/premium_photo-unsplash.avif"); */
+  background-image: url("../images/premium_photo-unsplash.avif");
   /* background-image: url(../images/Hero-bg2.jpg); */
-  background-image: url(../images/marissa-anahory-P88Wn_rApPM-unsplash.jpg);
+  /* background-image: url(../images/marissa-anahory-P88Wn_rApPM-unsplash.jpg); */
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -2116,10 +2116,7 @@ img {
 \*-----------------------------------*/
 
 .property {
-  background: linear-gradient(180deg, 
-    rgba(218, 200, 40, 0) 0%, 
-    rgba(174, 178, 166, 0.1) 50%, 
-    rgba(255, 255, 255, 0.3) 100%);
+  background: radial-gradient(circle at center center, rgb(158, 247, 84) 0%, rgb(158, 247, 84) 20%,rgb(181, 249, 66) 20%, rgb(181, 249, 66) 40%,rgb(203, 251, 49) 40%, rgb(203, 251, 49) 60%,rgb(226, 252, 31) 60%, rgb(226, 252, 31) 80%,rgb(248, 254, 13) 80%, rgb(248, 254, 13) 100%);
   position: relative;
   overflow: hidden;
 }
@@ -2389,12 +2386,9 @@ img {
 \*-----------------------------------*/
 
 .feature {
+  background: radial-gradient(circle at center center, rgb(158, 247, 84) 0%, rgb(158, 247, 84) 20%,rgb(181, 249, 66) 20%, rgb(181, 249, 66) 40%,rgb(203, 251, 49) 40%, rgb(203, 251, 49) 60%,rgb(226, 252, 31) 60%, rgb(226, 252, 31) 80%,rgb(248, 254, 13) 80%, rgb(248, 254, 13) 100%);
   position: relative;
   overflow: hidden;
-  background: linear-gradient(180deg, 
-    rgba(255, 255, 255, 0) 0%, 
-    rgba(255, 255, 255, 0.08) 50%, 
-    rgba(255, 255, 255, 0.25) 100%);
 }
 
 [data-theme="dark"] .feature {
@@ -2587,9 +2581,7 @@ img {
 \*-----------------------------------*/
 
 .video {
-  background: linear-gradient(135deg, 
-    rgba(255, 255, 255, 0.15) 0%, 
-    rgba(255, 255, 255, 0.15) 100%);
+  background: radial-gradient(circle at center center, rgb(158, 247, 84) 0%, rgb(158, 247, 84) 20%,rgb(181, 249, 66) 20%, rgb(181, 249, 66) 40%,rgb(203, 251, 49) 40%, rgb(203, 251, 49) 60%,rgb(226, 252, 31) 60%, rgb(226, 252, 31) 80%,rgb(248, 254, 13) 80%, rgb(248, 254, 13) 100%);
   position: relative;
   overflow: hidden;
 }
@@ -2677,12 +2669,9 @@ img {
 \*-----------------------------------*/
 
 .story {
+  background: radial-gradient(circle at center center, rgb(158, 247, 84) 0%, rgb(158, 247, 84) 20%,rgb(181, 249, 66) 20%, rgb(181, 249, 66) 40%,rgb(203, 251, 49) 40%, rgb(203, 251, 49) 60%,rgb(226, 252, 31) 60%, rgb(226, 252, 31) 80%,rgb(248, 254, 13) 80%, rgb(248, 254, 13) 100%);
   position: relative;
   overflow: hidden;
-  background: linear-gradient(180deg, 
-    rgba(255, 255, 255, 0) 0%, 
-    rgba(255, 255, 255, 0.08) 50%, 
-    rgba(255, 255, 255, 0.25) 100%);
 }
 
 [data-theme="dark"] .story {
@@ -2838,7 +2827,7 @@ img {
 
 .testimonials {
   background: linear-gradient(180deg, 
-    rgba(255, 255, 255, 0) 0%, 
+    rgba(141, 75, 247, 0.874) 0%, 
     rgba(255, 255, 255, 0.08) 50%, 
     rgba(255, 255, 255, 0.25) 100%);
   position: relative;
@@ -3049,8 +3038,9 @@ img {
 \*-----------------------------------*/
 
 .footer {
-  /* background: linear-gradient(135deg, #466cb8 0%, #2d3f5e 50%, #1f2d47 100%); */
-  background-image: radial-gradient( circle farthest-corner at 17.6% 50.7%,  rgba(25,0,184,1) 0%, rgba(0,0,0,1) 90% );
+  background: radial-gradient(circle at top left, rgb(33, 29, 75) 0%, rgb(33, 29, 75) 4%,rgb(29, 39, 97) 4%, rgb(29, 39, 97) 39%,rgb(24, 49, 120) 39%, rgb(24, 49, 120) 45%,rgb(20, 59, 142) 45%, rgb(20, 59, 142) 69%,rgb(15, 69, 164) 69%, rgb(15, 69, 164) 71%,rgb(11, 79, 186) 71%, rgb(11, 79, 186) 75%,rgb(6, 89, 209) 75%, rgb(6, 89, 209) 79%,rgb(2, 99, 231) 79%, rgb(2, 99, 231) 100%);
+  position: relative;
+  overflow: hidden;
   color: #d1dce8;
   position: relative;
   overflow: hidden;
@@ -4139,18 +4129,3 @@ select:focus {
     justify-content: center;
   }
 }
-
-/* body */
-
-/* body { */
-  /* background: linear-gradient(
-    107.4deg,
-    rgba(255,242,239,1) 11.1%,
-    rgba(255,219,182,1) 37.5%,
-    rgba(247,165,165,1) 54.3%,
-    rgba(26,42,79,1) 84.3%
-  );
-   */
-  /* background-repeat: no-repeat; */
-  /* background-size: cover; */
-/* } */
