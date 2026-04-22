@@ -1290,9 +1290,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  background-image: url("../images/premium_photo-unsplash.avif");
+  /* background-image: url("../images/premium_photo-unsplash.avif"); */
   /* background-image: url(../images/Hero-bg2.jpg); */
-  /* background-image: url(../images/marissa-anahory-P88Wn_rApPM-unsplash.jpg); */
+  background-image: url(../images/marissa-anahory-P88Wn_rApPM-unsplash.jpg);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
@@ -1648,7 +1648,7 @@ img {
 .hero-text {
   font-size: 1.8rem;
   line-height: 1.7;
-  color: rgba(50, 39, 39, 0.9);
+  color: rgba(230, 215, 215, 0.9);
   max-width: 600px;
   animation: fadeInUp 0.8s ease-out 0.2s both;
   font-family: arial-black;
