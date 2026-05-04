@@ -1,4 +1,4 @@
-const properties = [
+ const properties = [
   {
     title: "Residential Prime Spaces Sector 46 Gurgaon",
     price: 15000000,

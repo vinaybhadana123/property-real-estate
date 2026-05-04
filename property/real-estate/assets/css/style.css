@@ -2116,7 +2116,8 @@ img {
 \*-----------------------------------*/
 
 .property {
-  background: radial-gradient(circle at center center, rgb(158, 247, 84) 0%, rgb(158, 247, 84) 20%,rgb(181, 249, 66) 20%, rgb(181, 249, 66) 40%,rgb(203, 251, 49) 40%, rgb(203, 251, 49) 60%,rgb(226, 252, 31) 60%, rgb(226, 252, 31) 80%,rgb(248, 254, 13) 80%, rgb(248, 254, 13) 100%);
+  /* background: radial-gradient(circle at center center, rgb(158, 247, 84) 0%, rgb(158, 247, 84) 20%,rgb(181, 249, 66) 20%, rgb(181, 249, 66) 40%,rgb(203, 251, 49) 40%, rgb(203, 251, 49) 60%,rgb(226, 252, 31) 60%, rgb(226, 252, 31) 80%,rgb(248, 254, 13) 80%, rgb(248, 254, 13) 100%); */
+  background: 
   position: relative;
   overflow: hidden;
 }
